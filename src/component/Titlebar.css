@@ -1,0 +1,47 @@
+#title-bar{
+  background-color: hsla(0, 0%, 0%, 0.35);
+}
+
+#web-title{
+  font-weight:500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gold;
+}
+
+/* For the entire navbar */
+#title-name{
+  margin: 0 !important;
+  padding-left: 2vw;
+}
+
+/* Navbar containing all the navigation links */
+.nav-content{
+  margin-left: 10vw;
+  width: 45vw;
+}
+
+/* For the elements of Navlink i.e., Home Projects Shop */
+.nav-link{
+  cursor: pointer;
+}
+
+a.nav-link{
+  color: white;
+}
+
+/* For the first icon element  */
+#first-icon{
+  margin-left: 5vw;
+}
+
+/* For the icons in the navbar */
+.nav-icon{
+  margin-left: 3vw;
+  margin-top: 6px;
+}
+
+
+/* For the register button on the right */
+#user-name{
+  padding-right: 3vw;
+}
