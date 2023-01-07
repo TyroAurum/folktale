@@ -1,0 +1,42 @@
+.verse-page{
+    background-color: rgb(255, 255, 255);
+}
+
+.verse-title{
+    font-family: cursive;
+    padding-left: 4vw;
+    color: rgb(255, 121, 25);
+}
+
+#hr-1{
+    margin-bottom: 0;
+}
+
+#hr-2{
+    margin-top: 0;
+}
+
+.leafygreen-ui-1v4ednr {
+    position: relative;
+    font-family: "Euclid Circular A", Akzidenz, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    min-height: 68px;
+    box-shadow: rgba(0, 30, 43, 0.3) 0px 4px 10px -4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 45, 56);
+    transition: border 150ms ease-in-out 0s, box-shadow;
+    border-radius: 24px;
+    padding: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 237, 235);
+    border-image: initial;
+
+    margin-top: 4vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+
+}
+

@@ -1,0 +1,56 @@
+.App{
+    background-color: rgb(162, 83, 235);
+    height: 100vh;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.jumbo-text>h2{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vw;
+    padding-bottom: 5vh;
+    font-size: 75px;
+    color: aqua;
+    
+}
+.highlight{
+    color: red;
+}
+
+.btn-home{
+    height: 8vh;
+    width: 25vw;
+}
+
+.div-col-2{
+    background-color: rgb(255, 176, 5);
+    height: 100vh;
+    text-align: center;
+}
+
+.div-col-2>h2{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10vw;
+    padding-bottom: 5vh;
+    font-size: 75px;
+    color: aqua;
+    
+}
+
+.div-col-3{
+    background-color: rgb(21, 160, 252);
+    height: 100vh;
+    text-align: center;    
+}
+
+.div-col-3>h2{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 15vw;
+    padding-bottom: 5vh;
+    font-size: 75px;
+    color: aqua;
+    
+}

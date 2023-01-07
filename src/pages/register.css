@@ -1,0 +1,173 @@
+
+.login-section {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 25s ease infinite;
+	height: 89.5vh ;
+    position: relative;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+b{
+	font-size: 25px;
+}
+
+@media screen and (min-width: 769px) {
+
+    .login-section{
+        padding-top: 15vh;
+    }
+    
+    .inner-container{
+        position: relative;
+        z-index: 4;
+        margin: auto;
+        max-width: 350px;
+        background-color: white;
+        border-radius: 5px;
+        height: 7s0vh;
+    }
+
+
+    .login-box{
+        vertical-align: middle;
+        margin: auto;
+        text-align: center;
+        border-radius: 25px;
+    
+    }
+
+    #input-box-title{
+        padding-top: 5vh;
+        color: rgb(49, 49, 49);
+    }
+
+    .box-input{
+        width: 250px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: aliceblue;
+    }
+
+    .radio-btns{
+        width: 20%;
+        text-align: center;
+        margin: auto;
+    }
+
+    #submit-btn{
+        padding-bottom: 25px;
+
+}
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+
+    .login-section{
+        padding-top: 15vh;
+    }
+
+    .inner-container{
+        z-index: 1;
+        margin: auto;
+        max-width: 300px;
+        background-color: white;
+        border-radius: 5px;
+        height: 60vh;
+    }
+
+    .login-box{
+        vertical-align: middle;
+        margin: auto;
+        text-align: center;
+        border-radius: 25px;
+
+    
+    }
+
+    #input-box-title{
+        padding-top: 7vh;
+        color: rgb(49, 49, 49);
+    }
+    
+    .box-input{
+        width: 200px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: aliceblue;
+    }
+    
+    .radio-btns{
+        width: 20%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #submit-btn{
+        margin-bottom: 5vh;
+    
+}
+    
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    
+    .login-section{
+        padding-top: 12vh;
+    }
+
+    .inner-container{
+        z-index: 1;
+        margin: auto;
+        max-width: 250px;
+        background-color: white;
+        border-radius: 5px;
+        height: 75vh;
+    }
+
+    .login-box{
+        vertical-align: middle;
+        margin: auto;
+        text-align: center;
+        border-radius: 25px;
+
+    
+    }
+
+    #input-box-title{
+        padding-top: 7vh;
+        color: rgb(49, 49, 49);
+    }
+    
+    .box-input{
+        width: 200px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: aliceblue;
+    }
+    
+    .radio-btns{
+        width: 20%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #submit-btn{
+        margin-bottom: 5vh;
+    
+}
+}
+
